@@ -1,13 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stephen | Geospatial Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stephen — Geospatial Designer & Cartographer</title>
+  <meta name="description" content="Interactive maps, cartography, and geospatial data visualization by Stephen." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>This is Stephen’s portfolio site hosted on GitHub Pages.</p>
-  <p>If you’re seeing this, GitHub Pages works!</p>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>Stephen — Geospatial Designer & Cartographer</h1>
+      <p>Interactive mapping • Cartographic design • Data visualization</p>
+      <nav class="top-nav">
+        <a href="#projects">Projects</a>
+        <a href="#static">Static Maps</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- PROJECTS (interactive) -->
+    <section id="projects" class="section">
+      <h2>Interactive Web Maps</h2>
+      <div class="grid">
+        <!-- Project card 1 -->
+        <article class="card">
+          <a class="card-link" href="/projects/holyrood.html">
+            <img src="/assets/holyrood-thumb.jpg" alt="Inclusive Fieldwork Map – Holyrood Park thumbnail" />
+            <div class="card-body">
+              <h3>Inclusive Fieldwork Map — Holyrood Park</h3>
+              <p>Web map supporting route planning for neurodivergent students. Mapbox GL JS; slope, surface and hazard layers; accessible colour palette.</p>
+              <span class="meta">Mapbox GL JS • 2024</span>
+            </div>
+          </a>
+        </article>
+
+        <!-- Project card 2 -->
+        <article class="card">
+          <a class="card-link" href="/projects/second-map.html">
+            <img src="/assets/second-map-thumb.jpg" alt="Second web map thumbnail" />
+            <div class="card-body">
+              <h3>[Project Title] — Web & Mobile Mapping</h3>
+              <p>Short 1–2 line summary of the second interactive map. What it shows, key data, and your design focus.</p>
+              <span class="meta">Kepler.gl / Mapbox • 2023</span>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- STATIC MAPS -->
+    <section id="static" class="section">
+      <h2>Static Cartography</h2>
+      <div class="grid grid-static">
+        <figure class="static-card">
+          <img src="/assets/static-1.jpg" alt="Static map 1" />
+          <figcaption>Title or 1-line description (scale, technique, or design goal).</figcaption>
+        </figure>
+        <figure class="static-card">
+          <img src="/assets/static-2.jpg" alt="Static map 2" />
+          <figcaption>Title or 1-line description.</figcaption>
+        </figure>
+        <figure class="static-card">
+          <img src="/assets/static-3.jpg" alt="Static map 3" />
+          <figcaption>Title or 1-line description.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I’m a Geospatial Designer and Cartographer focused on creative visual storytelling, backed by strong analytical and GIS skills from a background in Mathematics (BSc, University of York) and Geoinformation Technology & Cartography (MSc, University of Glasgow).
+      </p>
+      <p>
+        Tools: Mapbox Studio, Kepler.gl, QGIS, HTML/CSS/JavaScript. Interests: cartographic design, open data, inclusive mapping, and spatial storytelling.
+      </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <ul class="links">
+        <li><a href="mailto:YOUR_EMAIL">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/YOUR_HANDLE/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/wolftrekker" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© 2025 Stephen — Hosted on GitHub Pages</small>
+  </footer>
 </body>
 </html>
